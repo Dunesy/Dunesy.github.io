@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script src="../javascripts/main.js"></script>
+<script>
+$.getJSON( gistItForProjectEuler(27))
+  .done(function( data, textStatus ) {
+    console.log( textStatus );
+	document.createElement("body");
+	$(document).body.append(data);
+  })
+  .fail(function( jqxhr, settings, exception ) {
+    $( "div.log" ).text( "Triggered ajaxError handler." );
+});
+</script>
+</head>
+</html>
+
