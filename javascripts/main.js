@@ -53,12 +53,7 @@ fixScale = function(doc) {
 };
 
 gistItForProjectEuler = function(number) {
-	var uri = "http://gist-it.appspot.com/https://github.com/Dunesy/ProjectEulerWorkspace/blob/master/Problem{0}.java";
-	uri = uri.replace('{0}', number);
-	return uri;
-};
-
-function loadScript(url)
-{
-    document.body.appendChild(document.createElement("script")).src = url;
+	var url = "https://github.com/Dunesy/ProjectEulerWorkspace/blob/master/Problem{0}.java"
+	url = url.replace("{0}", number);
+	$("#javaBox").load(url);
 };
