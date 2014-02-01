@@ -17,6 +17,7 @@
 	font-size: 18px;
 	font-weight: bold;	
     list-style-type:none;    
+	padding: 0 0 0 7px;
 }
 #banner ul li ul.dropdown:hover > li{
     display:block;
@@ -29,6 +30,7 @@
 #banner ul li ul.dropdown li a {
 	color: #666666;
 	font-weight: bold;
+	padding: 0 0 0 7px;
 }
 
 #banner ul li ul.dropdown li a:hover {
