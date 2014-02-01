@@ -1,0 +1,36 @@
+#banner ul li ul.dropdown {
+	margin: 0;
+	padding:10px 0 0 0;
+	height: 1em;	
+}
+#banner ul li ul.dropdown li{
+	color: #666666;
+	display: none;		
+	font-size: 14px;
+	font-weight: bold;
+    position:relative;
+    list-style-type:none;      	
+}
+#banner ul li ul.dropdown li:first-child {
+	color: #666666;	
+	display: block;		
+	font-size: 18px;
+	font-weight: bold;	
+    list-style-type:none;    
+}
+#banner ul li ul.dropdown:hover > li{
+    display:block;
+	background-color: #FC0;
+	border-style:solid;
+	border-width:1px;	
+	border-color: #666666;
+}
+
+#banner ul li ul.dropdown li a {
+	color: #666666;
+	font-weight: bold;
+}
+
+#banner ul li ul.dropdown li a:hover {
+	color: #fff;
+}
